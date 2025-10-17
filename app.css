@@ -1,0 +1,150 @@
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #fafafa;
+	margin: 0;
+	color: #333;
+}
+
+/* --- Banner --- */
+.banner-container {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.banner-container img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.subscribe-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #0056d2;
+	color: white;
+	padding: 14px 28px;
+	border-radius: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+	transition: 0.3s ease;
+}
+
+.subscribe-btn:hover {
+	background-color: #003c99;
+	transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Navbar and layout */
+.col-md-12 {
+	text-align: center;
+	padding: 20px 0;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: #0056d2;
+	font-weight: bold;
+}
+
+#navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+#menu ul {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+	padding: 15px 100px;
+	margin: 0;
+	background-color: #e9eefc;
+	justify-content: center;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+}
+
+#menu ul li a:hover {
+	color: #0056d2;
+}
+
+/* --- GENERAL NOTICE SECTION --- */
+.notice-box {
+	border: 1px solid #dcdcdc;
+	border-radius: 6px;
+	padding: 15px 20px;
+	background-color: #fff;
+	width: 70%;
+	margin: 40px auto;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.notice-title {
+	background-color: #0056d2;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	margin: -15px -20px 10px -20px;
+	border-radius: 6px 6px 0 0;
+}
+
+.notice-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.notice-list li {
+	padding: 6px 0;
+	border-bottom: 1px dashed #ccc;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.notice-list li::before {
+	content: "› ";
+	color: red;
+	font-weight: bold;
+}
+
+.notice-list li a {
+	text-decoration: none;
+	color: #0056d2;
+}
+
+.notice-list li a:hover {
+	text-decoration: underline;
+}
+
+.notice-more {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.notice-more a {
+	color: #0056d2;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.notice-more a:hover {
+	text-decoration: underline;
+}
